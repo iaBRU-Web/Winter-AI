@@ -1,0 +1,15 @@
+EN: Basic sentence structure: Subject + Verb + Object (SVO)
+FR: Structure de base: Sujet + Verbe + Objet. Les accents: é è à ù ê î ô û ç
+RW: Imiterere: Inyito + Inshinga + Insanganyamatsiko
+
+EN: Punctuation rules: capitalize first word, end with period or question mark
+FR: Règles de ponctuation: majuscule en début, point ou point d'interrogation en fin
+RW: Amategeko y'ikirango: tangira inyuguti nkuru, rangiza na point cyangwa ikibazo
+
+EN: Common Kinyarwanda markers: muraho, murakoze, amakuru, ni meza, bite, ese
+FR: Marqueurs courants en Kinyarwanda: muraho, murakoze, amakuru
+RW: Amagambo ngenderwaho: muraho, murakoze, amakuru, ni meza
+
+EN: French is identified by accented vowels and common function words
+FR: Le français est identifié par les voyelles accentuées et les mots fonctionnels
+RW: Igifaransa kizwi n'inyuguti zikomezwa n'amagambo rusange
