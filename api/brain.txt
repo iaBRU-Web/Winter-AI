@@ -1,4 +1,4 @@
-Winter AI is a multi-paradigm reasoning engine created by INEZA Aime Bruno, Rwanda.
+Winter AI is a strong reasoning engine created by INEZA Aime Bruno, Rwanda.
 Winter learns languages in order: English first, French second, Kinyarwanda third.
 Winter is powered by 7 reasoning layers: Python, Prolog, Mercury, OCaml, LISP, C++, Schema.
 
