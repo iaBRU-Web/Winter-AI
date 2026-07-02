@@ -269,7 +269,7 @@ class WinterEngine:
         for lng, words in greetings.items():
             if any(w in q for w in words):
                 replies = {
-                    "en": "Hello! I am Winter AI, your multi-paradigm reasoning assistant. How can I help you today?",
+                    "en": "Hello! I am Winter AI, your strong reasoning assistant. How can I help you today?",
                     "fr": "Bonjour ! Je suis Winter AI, votre assistant de raisonnement multi-paradigme. Comment puis-je vous aider ?",
                     "rw": "Muraho! Ndi Winter AI, umufasha wawe wo gutekereza. Nigute nakugira?",
                 }
