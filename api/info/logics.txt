@@ -17,3 +17,63 @@ RW: Kumenya ururimi bikoresha inyuguti n'amagambo
 EN: Winter AI prioritizes the user's selected language for responses
 FR: Winter AI priorise la langue choisie par l'utilisateur
 RW: Winter AI ishyira imbere ururimi ruhisemo n'ukoresha
+
+EN: If user asks about science, search brain.txt for physics, chemistry, or biology entries
+FR: Si l'utilisateur pose une question sur la science, chercher dans brain.txt les entrées sur la physique, la chimie ou la biologie
+RW: Iyo umuntu abajije siyanse, shakisha muri brain.txt ibyerekeye fiziki, chimie, cyangwa biologiya
+
+EN: If user asks about history, return historical facts from brain.txt
+FR: Si l'utilisateur pose des questions sur l'histoire, retourner des faits historiques depuis brain.txt
+RW: Iyo umuntu abajije amateka, subiza ukuri kw'amateka kuva muri brain.txt
+
+EN: If user asks about mathematics, provide formulas, theorems, and definitions
+FR: Si l'utilisateur pose des questions sur les mathématiques, fournir des formules, théorèmes et définitions
+RW: Iyo umuntu abajije matematiki, tanga formuleri, ingano, n'ibisobanuro
+
+EN: If user asks about technology or computers, provide technical explanations
+FR: Si l'utilisateur pose des questions sur la technologie, fournir des explications techniques
+RW: Iyo umuntu abajije ikoranabuhanga, tanga ibisobanuro by'imyitozo
+
+EN: If user asks about geography, provide location facts, capitals, and physical features
+FR: Si l'utilisateur pose des questions sur la géographie, fournir des faits sur les lieux, les capitales et les caractéristiques physiques
+RW: Iyo umuntu abajije jeografiya, tanga ukuri kw'aho, amurwa mukuru, n'ibintu by'imiterere
+
+EN: If user asks about Rwanda, prioritize Kinyarwanda response and local knowledge
+FR: Si l'utilisateur pose des questions sur le Rwanda, privilégier les réponses en Kinyarwanda et les connaissances locales
+RW: Iyo umuntu abajije u Rwanda, shyira imbere igisubizo cya kinyarwanda n'ubumenyi bw'ahabaye
+
+EN: If user asks about a person, return biographical information from brain.txt
+FR: Si l'utilisateur pose des questions sur une personne, retourner des informations biographiques depuis brain.txt
+RW: Iyo umuntu abajije umuntu runaka, subiza amakuru y'ubuzima bwe avuye muri brain.txt
+
+EN: If user asks what Winter AI can do, list its capabilities: science, history, math, geography, technology, languages
+FR: Si l'utilisateur demande ce que Winter AI peut faire, lister ses capacités : science, histoire, maths, géographie, technologie, langues
+RW: Iyo umuntu abajije Winter AI irashobora iki, tegeka ubushobozi bwayo: siyanse, amateka, matematiki, jeografiya, ikoranabuhanga, indimi
+
+EN: If the answer contains a language prefix tag like EN: or FR: or RW:, strip the tag before displaying
+FR: Si la réponse contient un préfixe de langue comme EN: ou FR: ou RW:, supprimer le préfixe avant l'affichage
+RW: Niba igisubizo gifite ikimenyetso cy'ururimi nka EN: cyangwa FR: cyangwa RW:, kurenga mbere yo kwerekana
+
+EN: Always validate output through all 7 engine layers before returning to the user
+FR: Toujours valider la sortie à travers les 7 couches de moteur avant de retourner à l'utilisateur
+RW: Buri gihe emeza ibisubizo binyuze mu nzira 7 z'inzobe mbere yo gusubiza ukoresha
+
+EN: When user asks a definition, provide a clear and complete explanation
+FR: Lorsque l'utilisateur demande une définition, fournir une explication claire et complète
+RW: Iyo umuntu asabye ibisobanuro, tanga ibisobanuro byumvikana kandi byuzuye
+
+EN: When user asks how something works, explain the process step by step
+FR: Lorsque l'utilisateur demande comment quelque chose fonctionne, expliquer le processus étape par étape
+RW: Iyo umuntu abajije uburyo ikintu gikorera, sobanura inzira intambwe ku ntambwe
+
+EN: Combine dictionary.txt lookups with brain.txt context for richer answers
+FR: Combiner les recherches dans dictionary.txt avec le contexte de brain.txt pour des réponses plus riches
+RW: Huza gushakisha muri dictionary.txt n'ibisobanuro bya brain.txt kugira ngo ibisubizo bishimishije cyane
+
+EN: If user writes in Kinyarwanda, always respond in Kinyarwanda first
+FR: Si l'utilisateur écrit en Kinyarwanda, toujours répondre en Kinyarwanda en premier
+RW: Iyo umuntu yanditse mu Kinyarwanda, buri gihe subiza mu Kinyarwanda mbere
+
+EN: Score matching favors lines that begin with the user's detected language tag
+FR: Le score de correspondance favorise les lignes qui commencent par le tag de langue détectée de l'utilisateur
+RW: Amanota y'ubuhuye ashyira imbere imirongo itangira n'ikimenyetso cy'ururimi rw'ukoresha
