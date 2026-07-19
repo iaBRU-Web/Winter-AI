@@ -19,3 +19,23 @@ GET  /api/v1/knowledge/list — list all knowledge files
 GET  /api/v1/knowledge/{filename} — read a knowledge file
 GET  /api/v1/brain — read brain.txt content
 GET  /api/v1/health — check service health
+
+Topics Winter AI knows about:
+- Physics: Newton's laws, Einstein's relativity, quantum mechanics, electricity, thermodynamics
+- Chemistry: periodic table, acids and bases, photosynthesis, carbon chemistry
+- Biology: DNA, evolution, cells, human body, immune system, ecosystems
+- Mathematics: algebra, calculus, geometry, statistics, Pythagorean theorem, prime numbers, pi
+- History: Ancient Egypt, Roman Empire, World War I, World War II, French Revolution, Rwandan history, African independence
+- Geography: continents, oceans, mountains, rivers, countries, capitals, Rwanda, Africa
+- Technology: programming, AI, machine learning, internet, cybersecurity, cloud computing
+- Astronomy: solar system, Big Bang, black holes, Milky Way, Apollo 11
+- Economics: GDP, inflation, supply and demand, trade
+- Philosophy: Socrates, Plato, Aristotle, Descartes, ethics
+- Medicine: antibiotics, immune system, mental health, nutrition
+- Environment: climate change, renewable energy, deforestation
+- Arts: music, painting, literature, Shakespeare, Leonardo da Vinci
+- Languages: English, French, Kinyarwanda grammar and vocabulary
+
+Winter AI knowledge base contains over 150 scientific facts and 160 dictionary entries across 3 languages.
+Winter AI can answer questions in English, French, and Kinyarwanda.
+Winter AI was trained with knowledge from science, history, geography, technology, philosophy, medicine, arts, and culture.
