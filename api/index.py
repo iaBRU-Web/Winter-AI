@@ -43,7 +43,23 @@ KNOWLEDGE_BASE: dict[str, str] = {}
 KINYARWANDA_WORDS = {
     "muraho", "murakoze", "amakuru", "ni", "meza", "umukino",
     "kode", "ineza", "uyu", "iyo", "ubwo", "kandi", "ariko",
-    "cyane", "neza", "bite", "ese", "ndashaka", "nagira", "ngo"
+    "cyane", "neza", "bite", "ese", "ndashaka", "nagira", "ngo",
+    "ubumenyi", "gutekereza", "igisubizo", "ikibazo", "igihugu",
+    "umuryango", "ubuzima", "akazi", "ishuri", "igitabo",
+    "ubuhanzi", "amahoro", "intambara", "urukundo", "inshuti",
+    "amateka", "siyanse", "matematiki", "jeografiya", "isi",
+    "izuba", "ukwezi", "inyenyeri", "igiti", "inyamaswa",
+    "umuntu", "umwana", "indyo", "umwarimu", "umunyeshuri",
+    "iterambere", "ikoranabuhanga", "interineti", "porogiram",
+    "ekonomiya", "ubucuruzi", "ubuhinzi", "inganda", "uburezi",
+    "ubwigenge", "ubungakanye", "ubutabera", "umuco", "idini",
+    "imibare", "nimero", "atome", "selile", "biologiya",
+    "fiziki", "chimie", "ubuvuzi", "inkingo", "amaraso",
+    "umutima", "ubwonko", "ingufu", "amashanyarazi", "urumuri",
+    "ijwi", "ubushyuhe", "uburemere", "galaxi", "ikirangamubiri",
+    "rwanda", "kigali", "afurika", "aziya", "uburayi", "amerika",
+    "inyanja", "umusozi", "uruzi", "imvura", "umuyaga", "ikirere",
+    "ishyamba", "ibidukikije", "zahabu", "icyuma", "amafaranga"
 }
 
 FRENCH_CHARS = set("éèêëàâùûüîïôçœæ")
@@ -292,6 +308,106 @@ class WinterEngine:
                 "en": "I'm running perfectly — all 7 reasoning engines online. How can I assist you?",
                 "fr": "Je fonctionne parfaitement — tous les 7 moteurs actifs. Comment puis-je vous aider ?",
                 "rw": "Ndakora neza — imishinga 7 iri gukora. Nakugira nte?",
+            }
+            return replies.get(lang, replies["en"])
+
+        # What can you do / capabilities
+        capabilities = {"what can you do", "que peux-tu faire", "ushobora iki", "capabilities", "capacités"}
+        if any(w in q for w in capabilities):
+            replies = {
+                "en": "I am Winter AI! I know about: Science (physics, chemistry, biology), Mathematics, History, Geography, Technology & Programming, Astronomy, Economics, Philosophy, Medicine, Arts, African countries, Famous scientists, Sports, Food, and World landmarks. I speak English, French, and Kinyarwanda. Ask me anything!",
+                "fr": "Je suis Winter AI! Je connais: Science (physique, chimie, biologie), Mathématiques, Histoire, Géographie, Technologie, Astronomie, Économie, Philosophie, Médecine, Arts, pays africains et bien plus. Je parle anglais, français et kinyarwanda. Posez-moi n'importe quelle question!",
+                "rw": "Ndi Winter AI! Nzi: Siyanse (fiziki, chimie, biologiya), Matematiki, Amateka, Jeografiya, Ikoranabuhanga, Astronomiya, Ekonomiya, Filozofiya, Ubuvuzi, Ubuhanzi, ibihugu bya Afurika, n'ibindi byinshi. Ndavuga Icyongereza, Igifaransa, na Kinyarwanda. Baza ikibazo icyo aricyo cyose!",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Who made you / who created you
+        creator = {"who made you", "who created you", "qui t'a créé", "wakuremye", "wavushije"}
+        if any(w in q for w in creator):
+            replies = {
+                "en": "I am Winter AI, created by INEZA Aime Bruno from Rwanda. I am a multi-paradigm reasoning engine that runs 7 layers of logic to answer your questions.",
+                "fr": "Je suis Winter AI, créé par INEZA Aime Bruno du Rwanda. Je suis un moteur de raisonnement multi-paradigme qui utilise 7 couches logiques pour répondre à vos questions.",
+                "rw": "Ndi Winter AI, wahujwe na INEZA Aime Bruno wo mu Rwanda. Ndi mashini yo gutekereza ikoresheje inzira 7 zo gusubiza ibibazo byawe.",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Physics questions
+        physics = {"newton", "gravity", "force", "energy", "physics", "relativity", "quantum", "atom", "electron", "speed of light", "physique", "gravité", "fiziki", "uburemere"}
+        if any(w in q for w in physics):
+            replies = {
+                "en": "Physics knowledge: Newton's laws govern motion (F=ma). Einstein's E=mc² links energy and mass. The speed of light is ~300,000 km/s. Atoms contain protons, neutrons, and electrons. Gravity accelerates objects at 9.8 m/s² on Earth.",
+                "fr": "Physique: Les lois de Newton régissent le mouvement (F=ma). E=mc² d'Einstein lie énergie et masse. La vitesse de la lumière est ~300 000 km/s. Les atomes contiennent des protons, neutrons et électrons.",
+                "rw": "Fiziki: Amategeko ya Newton agenzura imyenda (F=ma). E=mc² ya Einstein ifatanya ingufu n'uburemere. Umuvuduko w'urumuri ni ~300,000 km/s. Atome irimo proton, neutron, na electron.",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Biology questions
+        biology = {"dna", "cell", "evolution", "darwin", "biology", "organism", "gene", "protein", "virus", "bacteria", "biologie", "biologiya", "selile"}
+        if any(w in q for w in biology):
+            replies = {
+                "en": "Biology knowledge: DNA carries genetic information in a double helix. Cells are the basic unit of life. Darwin's evolution theory shows species adapt by natural selection. The human body has ~37 trillion cells and 206 bones.",
+                "fr": "Biologie: L'ADN porte l'information génétique en double hélice. Les cellules sont l'unité de base de la vie. La théorie de l'évolution de Darwin montre comment les espèces s'adaptent par sélection naturelle.",
+                "rw": "Biologiya: DNA ihuza amakuru ya genetics muri double helix. Selile ni inkingi y'ubuzima. Ingano ya Darwin ya gutera imbere werekana ko ubwoko bwihinduranya hakoreshejwe guhitamo kamere.",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Math questions
+        math_kw = {"pythagorean", "theorem", "algebra", "calculus", "mathematics", "equation", "prime", "fibonacci", "pi ", "mathematics", "mathématiques", "matematiki", "theorem"}
+        if any(w in q for w in math_kw):
+            replies = {
+                "en": "Mathematics: Pythagorean theorem: a²+b²=c². Pi ≈ 3.14159. Prime numbers have no divisors except 1 and themselves (2,3,5,7,11...). Fibonacci sequence: 0,1,1,2,3,5,8,13,21... Calculus studies rates of change and accumulation.",
+                "fr": "Mathématiques: Théorème de Pythagore: a²+b²=c². Pi ≈ 3,14159. Les nombres premiers n'ont pas d'autres diviseurs que 1 et eux-mêmes. Suite de Fibonacci: 0,1,1,2,3,5,8,13,21...",
+                "rw": "Matematiki: Ingano ya Pitagora: a²+b²=c². Pi ≈ 3.14159. Imibare ya prime idafite abagabanya uretse 1 na yo ubwayo (2,3,5,7,11...). Urutonde rwa Fibonacci: 0,1,1,2,3,5,8,13,21...",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Rwanda questions
+        rwanda_kw = {"rwanda", "kigali", "rwandan", "kagame", "rwandais", "u rwanda"}
+        if any(w in q for w in rwanda_kw):
+            replies = {
+                "en": "Rwanda: Known as 'The Land of a Thousand Hills', Rwanda gained independence on July 1, 1962. Capital: Kigali. President: Paul Kagame. Rwanda has one of Africa's fastest-growing economies (~7-8% annually). Currency: Rwandan Franc (RWF). Main exports: tea, coffee, coltan.",
+                "fr": "Rwanda: Connu comme 'Le Pays des Mille Collines', le Rwanda a obtenu son indépendance le 1er juillet 1962. Capitale: Kigali. Président: Paul Kagame. Monnaie: franc rwandais. Exportations: thé, café, coltan.",
+                "rw": "U Rwanda: Izwi nka 'Igihugu cy'Imisozi Igihumbi', u Rwanda rwabonye ubwigenge ku ya 1 Nyakanga 1962. Umurwa mukuru: Kigali. Perezida: Paul Kagame. Amafaranga: Faranga ya Rwanda (RWF). Ibicuruzwa: icyayi, ikawa, coltan.",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Africa questions
+        africa_kw = {"africa", "african", "afrique", "africain", "afurika"}
+        if any(w in q for w in africa_kw):
+            replies = {
+                "en": "Africa: The world's second-largest continent with 54 countries and 1.4+ billion people. It contains the Nile (world's longest river), Kilimanjaro (Africa's highest peak at 5,895m), and the Sahara (world's largest hot desert). Major economies: Nigeria, South Africa, Egypt, Ethiopia, Kenya.",
+                "fr": "Afrique: Le deuxième plus grand continent du monde avec 54 pays et plus de 1,4 milliard de personnes. Il contient le Nil (le fleuve le plus long du monde), le Kilimandjaro (5 895m) et le Sahara.",
+                "rw": "Afurika: Igihugu kinini cya kabiri cy'isi gifite ibihugu 54 n'abantu barenga biliyoni 1.4. Irimo Nili (uruzi rureremereye rw'isi), Kilimanjaro (metero 5,895), na Sahara (ubutayu bunini bwa hafi muri isi).",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Technology / AI questions
+        tech_kw = {"artificial intelligence", "machine learning", "programming", "python", "algorithm", "software", "computer", "technology", "intelligence artificielle", "ikoranabuhanga", "mudasobwa"}
+        if any(w in q for w in tech_kw):
+            replies = {
+                "en": "Technology: AI simulates human intelligence through machine learning and neural networks. Python is widely used for AI and data science. Algorithms are step-by-step problem-solving instructions. The Internet connects billions of devices via TCP/IP. Cloud computing delivers services over the internet.",
+                "fr": "Technologie: L'IA simule l'intelligence humaine via l'apprentissage automatique. Python est largement utilisé pour l'IA. Les algorithmes sont des instructions de résolution de problèmes. Internet connecte des milliards d'appareils via TCP/IP.",
+                "rw": "Ikoranabuhanga: AI ihuza ubwenge bw'abantu hakoreshejwe kwiga kw'ubukorikori. Python ikoreshwa cyane mu AI. Algorithme ni amabwiriza yo gukemura ibibazo. Interineti ihuza ibikoresho biliyoni hakoreshejwe TCP/IP.",
+            }
+            return replies.get(lang, replies["en"])
+
+        # History questions
+        history_kw = {"history", "war", "revolution", "empire", "ancient", "independence", "histoire", "guerre", "amateka", "intambara"}
+        if any(w in q for w in history_kw):
+            replies = {
+                "en": "History highlights: Ancient Egypt lasted 3000+ years. The Roman Empire fell in 476 AD. WWI (1914-1918): 17M deaths. WWII (1939-1945): 70M+ deaths. French Revolution (1789): liberty, equality, fraternity. Rwanda's independence: July 1, 1962. Nelson Mandela ended apartheid in 1994.",
+                "fr": "Histoire: L'Égypte ancienne a duré 3000+ ans. L'Empire romain est tombé en 476 après J.-C. La Première Guerre mondiale (1914-1918): 17M morts. La Seconde Guerre mondiale (1939-1945): 70M+ morts. Révolution française (1789): liberté, égalité, fraternité.",
+                "rw": "Amateka: Misiri ya kera yamaze imyaka 3000+. Ubwami bwa Roma bwagwiye mu 476 AD. Intambara ya 1 y'isi (1914-1918): abantu miliyoni 17 bapfuye. Intambara ya 2 y'isi (1939-1945): abantu 70M+ bapfuye. Ubwigenge bw'u Rwanda: 1 Nyakanga 1962.",
+            }
+            return replies.get(lang, replies["en"])
+
+        # Space / Astronomy questions
+        space_kw = {"space", "planet", "solar system", "galaxy", "universe", "black hole", "star", "moon", "sun", "espace", "planète", "univers", "isi yose", "inyenyeri", "galaxi"}
+        if any(w in q for w in space_kw):
+            replies = {
+                "en": "Space: The universe is 13.8 billion years old. Our solar system has 8 planets. The Sun contains 99.86% of our solar system's mass. The Milky Way has 200+ billion stars. Neil Armstrong walked on the Moon on July 20, 1969. Black holes have gravity so strong not even light can escape.",
+                "fr": "Espace: L'univers a 13,8 milliards d'années. Notre système solaire a 8 planètes. Le Soleil contient 99,86% de la masse du système solaire. La Voie lactée a 200+ milliards d'étoiles. Neil Armstrong a marché sur la Lune le 20 juillet 1969.",
+                "rw": "Akajagari: Isi yose ifite imyaka 13.8 biliyoni. Sisitemu yacu ya zuba ifite ikirangamubiri 8. Izuba rifite 99.86% y'uburemere bwa sisitemu ya zuba. Inzira Nyamweru ifite inyenyeri 200+ biliyoni. Neil Armstrong yagiye ku Ukwezi ku ya 20 Nyakanga 1969.",
             }
             return replies.get(lang, replies["en"])
 
