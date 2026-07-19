@@ -1,0 +1,24 @@
+Winter AI is a multi-paradigm reasoning engine created by INEZA Aime Bruno, Rwanda.
+Winter learns and answers in English, French, and Kinyarwanda.
+Winter's backend runs seven real language layers as actual subprocess calls.
+Python handles orchestration and TF-IDF retrieval.
+Scheme via GNU Guile runs a real cond dispatch for intent and sentiment classification.
+Prolog via SWI-Prolog runs real facts and rules with backtracking and transitive translation.
+The Logic Engine runs pytholog-style unification, PESAD-style certainty factors, and acarlson-style backward chaining entirely in Python.
+Common Lisp via SBCL builds a symbolic frame and scores keyword overlap.
+OCaml compiled natively validates input using real algebraic types.
+C++ compiled natively runs Levenshtein fuzzy matching and emits Unreal Engine Remote Control payloads.
+Mercury-style layer classifies how many solutions were found using det, semidet, nondet, or failure.
+The backend is deployed on Render at https://backend-winter.onrender.com
+The frontend is deployed on Vercel.
+Knowledge grows by adding files to api/inf/teach/ folder.
+EN: Hello | FR: Bonjour | RW: Muraho
+EN: Thank you | FR: Merci | RW: Murakoze
+EN: Goodbye | FR: Au revoir | RW: Murabeho
+EN: Yes | FR: Oui | RW: Yego
+EN: No | FR: Non | RW: Oya
+EN: Water | FR: Eau | RW: Amazi
+EN: Friend | FR: Ami | RW: Inshuti
+EN: School | FR: Ecole | RW: Ishuri
+EN: Work | FR: Travail | RW: Akazi
+EN: Home | FR: Maison | RW: Inzu

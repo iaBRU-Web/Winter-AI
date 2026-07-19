@@ -1,0 +1,20 @@
+EN: In English questions often start with who what where when why how which.
+EN: English nouns do not change form based on gender unlike French and Kinyarwanda.
+EN: English verbs change form for third person singular present tense by adding s or es.
+EN: English uses the definite article the and indefinite articles a and an.
+EN: English word order is typically subject verb object.
+FR: En francais les noms ont un genre masculin ou feminin.
+FR: En francais les articles definis sont le la les et les articles indefinis sont un une des.
+FR: En francais les adjectifs s accordent en genre et en nombre avec le nom qu ils qualifient.
+FR: L ordre des mots en francais est generalement sujet verbe objet comme en anglais.
+FR: En francais le pluriel se forme generalement en ajoutant s a la fin du nom.
+RW: Mu Kinyarwanda nta majwi asa na the cyangwa a nka mu Cyongereza.
+RW: Mu Kinyarwanda ibisubizo bigizwe n umuzizi w igihe n intera y igikorwa.
+RW: Mu Kinyarwanda amagambo yo gusobanura aherekeza izina ryo gusobanura.
+RW: Mu Kinyarwanda umubare wumva inyuma y izina nka inshuti nyinshi.
+RW: Mu Kinyarwanda ibikorwa bigaragaza umuntu ukoze igikorwa n igihe cyakorewe.
+EN: A noun is a word that names a person place thing or idea.
+EN: A verb is a word that describes an action state or occurrence.
+EN: An adjective is a word that modifies a noun or pronoun.
+EN: An adverb is a word that modifies a verb adjective or other adverb.
+EN: A sentence must have at least a subject and a verb to be complete.

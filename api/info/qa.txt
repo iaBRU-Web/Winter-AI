@@ -1,0 +1,59 @@
+EN: What is Winter AI? Winter AI is a polyglot reasoning assistant that thinks using seven real programming language engines combined together.
+FR: Qu'est-ce que Winter AI? Winter AI est un assistant de raisonnement polyglotte qui pense en utilisant sept moteurs de langages de programmation reels.
+RW: Winter AI ni iki? Winter AI ni umufasha wo gutekereza ukoresha imashini ndwi z'ururimi rwa programu zateranye.
+
+EN: Who created Winter AI? Winter AI was created by INEZA Aime Bruno from Rwanda.
+FR: Qui a cree Winter AI? Winter AI a ete cree par INEZA Aime Bruno du Rwanda.
+RW: Nde waremye Winter AI? Winter AI yaremwe na INEZA Aime Bruno wo mu Rwanda.
+
+EN: What languages does Winter AI speak? Winter AI answers in English, French, and Kinyarwanda.
+FR: Quelles langues Winter AI parle-t-il? Winter AI repond en anglais, francais et kinyarwanda.
+RW: Winter AI ivuga indimi zihe? Winter AI isubiza mu Cyongereza, Igifaransa no Gikinyarwanda.
+
+EN: What engines does Winter AI use? Python, Scheme via Guile, Prolog via SWI-Prolog, a unified logic engine, Common Lisp via SBCL, OCaml compiled native, C++ compiled native, and a Mercury-style determinism layer.
+FR: Quels moteurs Winter AI utilise-t-il? Python, Scheme via Guile, Prolog via SWI-Prolog, un moteur logique unifie, Common Lisp via SBCL, OCaml compile natif, C++ compile natif, et une couche de determinisme de style Mercury.
+RW: Winter AI ikoresha imashini izihe? Python, Scheme ya Guile, Prolog ya SWI-Prolog, imashini nguru y'ingingo, Common Lisp ya SBCL, OCaml yubatswe neza, C++ yubatswe neza, n'urwego rushingiye kuri Mercury.
+
+EN: How does Winter AI learn new things? Drop a .txt or .md file into api/inf/teach/ folder, commit it to git, and it is loaded automatically on the next deploy.
+FR: Comment Winter AI apprend-il de nouvelles choses? Deposez un fichier .txt ou .md dans le dossier api/inf/teach/, validez-le dans git, et il est charge automatiquement au prochain deploiement.
+RW: Winter AI iga ibintu bishya bite? Shyira dosiye .txt cyangwa .md muri api/inf/teach/, uyishyire muri git, izashyirwaho mu buryo bwikora mu gusubiramo gukurikira.
+
+EN: Where is Winter AI deployed? The backend runs on Render at https://backend-winter.onrender.com and the frontend runs on Vercel.
+FR: Ou est deploye Winter AI? Le backend fonctionne sur Render a https://backend-winter.onrender.com et le frontend sur Vercel.
+RW: Winter AI ishyirwa he? Backend ikora kuri Render kuri https://backend-winter.onrender.com naho frontend ikora kuri Vercel.
+
+EN: What is Rwanda? Rwanda is a landlocked country in East Africa known as the land of a thousand hills, bordered by Uganda, Tanzania, Burundi, and the DRC.
+FR: Qu'est-ce que le Rwanda? Le Rwanda est un pays enclave d'Afrique de l'Est connu comme le pays des mille collines.
+RW: U Rwanda ni iki? U Rwanda ni igihugu kidafite inkombe mu Afurika y'Iburasirazuba, gizwi nk'igihugu cy'imisozi igihumbi.
+
+EN: What is Kigali? Kigali is the capital and largest city of Rwanda, known internationally for being clean, safe, and well organized.
+FR: Qu'est-ce que Kigali? Kigali est la capitale et la plus grande ville du Rwanda, connue internationalement pour sa proprete et sa securite.
+RW: Kigali ni iki? Kigali ni umurwa mukuru w'u Rwanda, izwi ku isi kubera isuku, umutekano, n'imiterere myiza.
+
+EN: Does Winter AI use API keys? No. Winter AI has no OpenAI, no Anthropic, no Hugging Face. Its brain is its own knowledge base and logic engines.
+FR: Winter AI utilise-t-il des cles API? Non. Winter AI n'utilise ni OpenAI, ni Anthropic, ni Hugging Face. Son cerveau est sa propre base de connaissances.
+RW: Winter AI ikoresha API keys? Oya. Winter AI nta OpenAI, nta Anthropic, nta Hugging Face. Ubwonko bwayo ni ubumenyi bwayo ubwite.
+
+EN: What is the certainty factor system in Winter AI? Inspired by PESAD, each reasoning step carries a certainty score from 0 to 1. Very high is above 0.9, high is above 0.7, moderate is above 0.5, low is above 0.3.
+FR: Qu'est-ce que le systeme de facteurs de certitude de Winter AI? Inspire de PESAD, chaque etape de raisonnement porte un score de certitude de 0 a 1.
+RW: Uburyo bw'ikizere muri Winter AI ni iki? Bushingiye kuri PESAD, buri intambwe yo gutekereza ifite amanota y'ikizere kuva 0 kugeza 1.
+
+EN: What is the teach folder? The api/inf/teach/ folder is where you drop .txt or .md files to teach Winter AI new facts. They are loaded automatically.
+FR: Qu'est-ce que le dossier teach? Le dossier api/inf/teach/ est l'endroit ou vous deposez des fichiers pour apprendre de nouveaux faits a Winter AI.
+RW: Dosiye ya teach ni iki? api/inf/teach/ ni aho ushyira amadosiye .txt cyangwa .md kugira ngo uyigishe ibintu bishya.
+
+EN: What is the Unreal Engine integration? The C++ engine emits a structured payload shaped for Unreal Engine Remote Control HTTP API so game developers can drive NPCs from Winter AI replies.
+FR: Qu'est-ce que l'integration Unreal Engine? Le moteur C++ emet un payload structure pour l'API Remote Control d'Unreal Engine.
+RW: Guhuza na Unreal Engine ni iki? Imashini ya C++ itanga amakuru ashapfunye ku buryo bw'Unreal Engine Remote Control API.
+
+EN: What is backward chaining? Backward chaining starts from a goal and works backward through rules to find facts that prove it. It is how Winter AI resolves intent queries.
+FR: Qu'est-ce que le chainage arriere? Le chainage arriere part d'un objectif et remonte a travers les regles pour trouver les faits qui le prouvent.
+RW: Backward chaining ni iki? Bitangira ku ntego bakajya inyuma mu mategeko kugira ngo babone ibihamya byayo.
+
+EN: What is TF-IDF? TF-IDF stands for term frequency-inverse document frequency. It scores how important a word is to a document relative to the whole knowledge base.
+FR: Qu'est-ce que TF-IDF? TF-IDF signifie frequence des termes multipliee par la frequence inverse des documents.
+RW: TF-IDF ni iki? Ni uburyo bwo gupima akamaro k'ijambo muri dosiye imwe ugereranije n'ubumenyi bwose.
+
+EN: What is Levenshtein distance? It counts the minimum number of single-character edits to turn one string into another. Winter AI uses it as a fuzzy fallback matcher.
+FR: Qu'est-ce que la distance de Levenshtein? Elle compte le nombre minimum de modifications d'un seul caractere pour transformer une chaine en une autre.
+RW: Intera ya Levenshtein ni iki? Ibara umubare muto wa guhindura inyuguti imwe ku guhindura ijambo rimwe guturuka aho rindi.

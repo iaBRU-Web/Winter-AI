@@ -1,0 +1,31 @@
+EN: If the user tokens match a greeting keyword in the Scheme cond dispatch Winter responds with a greeting in their language.
+FR: Si les tokens correspondent a une salutation dans le cond de Scheme Winter repond par une salutation dans la langue de l utilisateur.
+RW: Iyo amagambo y ukoresha ahuye n ijambo ry ikaze mu cond ya Scheme Winter isubiza ikaze mu rurimi rwe.
+
+EN: The Prolog layer uses real backtracking to try direct translation first then transitive chains through a second language.
+FR: La couche Prolog utilise un vrai retour arriere pour essayer d abord la traduction directe puis les chaines transitives.
+RW: Urwego rwa Prolog rukoresha backtracking nyayo gugerageza guhindura ururimi ku buryo butaziguye mbere.
+
+EN: The Logic Engine combines unification from pytholog certainty factors from PESAD and backward chaining from acarlson expert system.
+FR: Le moteur logique combine l unification de pytholog les facteurs de certitude de PESAD et le chainage arriere de acarlson.
+RW: Imashini nguru y ingingo ihuza unification ya pytholog amakuru y ikizere ya PESAD n ubushake bwo gusubira inyuma bwa acarlson.
+
+EN: The Common Lisp layer builds a symbolic frame as an association list from the tokens then scores exact keyword overlap.
+FR: La couche Common Lisp construit un cadre symbolique sous forme de liste d association puis evalue le recoupement exact des mots-cles.
+RW: Urwego rwa Common Lisp rushiraho urwego rw ibirango hanyuma rugenzura uko bihuza n ubumenyi buhari.
+
+EN: The OCaml layer rejects input that is empty too long or not valid UTF-8 using exhaustive pattern matching the compiler verifies at build time.
+FR: La couche OCaml rejette une entree vide trop longue ou en UTF-8 invalide grace a un filtrage exhaustif verifie a la compilation.
+RW: Urwego rwa OCaml rwanga amakuru adafite agaciro aracumbi cyane cyangwa adafite UTF-8 nziza.
+
+EN: The C++ layer computes Levenshtein edit distance as a fallback fuzzy matcher only when both Prolog and TF-IDF score too low.
+FR: La couche C++ calcule une distance de Levenshtein comme solution de repli seulement si Prolog et TF-IDF ont un score trop faible.
+RW: Urwego rwa C++ rubara intera ya Levenshtein iyo izindi ngingo zombi zananiwe kubona igisubizo cyizewe.
+
+EN: The Mercury-style layer classifies how many candidate answers were found using det semidet nondet or failure to flag ambiguity honestly.
+FR: La couche de style Mercury classe le nombre de reponses candidates trouvees pour signaler l ambiguite honnêtement.
+RW: Urwego rushingiye kuri Mercury rugereranya umubare w ibisubizo byabonetse kugira ngo hagaragazwe urujijo.
+
+EN: If no engine produces a confident match Winter returns a helpful default and points to api/inf/teach/ as the way to teach Winter new information.
+FR: Si aucun moteur ne trouve de correspondance fiable Winter renvoie un message utile par defaut plutot que de deviner.
+RW: Niba nta rwego rwabonye igisubizo cyizewe Winter itanga ubutumwa bufasha aho kuvuga ikintu kitazwi neza.
