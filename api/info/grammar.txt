@@ -1,1 +1,59 @@
+EN: Basic sentence structure: Subject + Verb + Object (SVO)
+FR: Structure de base: Sujet + Verbe + Objet. Les accents: é è à ù ê î ô û ç
+RW: Imiterere: Inyito + Inshinga + Insanganyamatsiko
 
+EN: Punctuation rules: capitalize first word, end with period or question mark
+FR: Règles de ponctuation: majuscule en début, point ou point d'interrogation en fin
+RW: Amategeko y'ikirango: tangira inyuguti nkuru, rangiza na point cyangwa ikibazo
+
+EN: Common Kinyarwanda markers: muraho, murakoze, amakuru, ni meza, bite, ese
+FR: Marqueurs courants en Kinyarwanda: muraho, murakoze, amakuru
+RW: Amagambo ngenderwaho: muraho, murakoze, amakuru, ni meza
+
+EN: French is identified by accented vowels and common function words: je, tu, il, nous, vous, ils
+FR: Le français est identifié par les voyelles accentuées et les mots fonctionnels: je, tu, il, nous, vous, ils
+RW: Igifaransa kizwi n'inyuguti zikomezwa n'amagambo rusange: je, tu, il, nous, vous, ils
+
+EN: English questions use auxiliary verbs: do, does, did, is, are, was, were, will, can, should
+FR: Les questions anglaises utilisent des verbes auxiliaires: do, does, did, is, are, was, were, will, can
+RW: Ibibazo by'Icyongereza bikoresheje inshinga zungirira: do, does, did, is, are, was, were, will, can
+
+EN: Kinyarwanda noun classes define agreement patterns for verbs and adjectives
+FR: Les classes nominales du Kinyarwanda définissent les modèles d'accord pour les verbes et les adjectifs
+RW: Ibikorwa by'amazina ya Kinyarwanda bisobanura imiterere y'imbanziriza kuri inshinga n'inzira
+
+EN: In French, nouns have gender — masculine or feminine — which affects articles and adjectives
+FR: En français, les noms ont un genre — masculin ou féminin — ce qui affecte les articles et les adjectifs
+RW: Mu Gifaransa, amazina afite igitsina - igitsina gabo cyangwa igi tsina gore - bitera ingaruka ku makuru n'inzira
+
+EN: Kinyarwanda uses subject-verb agreement based on noun class prefixes
+FR: Le Kinyarwanda utilise l'accord sujet-verbe basé sur les préfixes de classe nominale
+RW: Ikinyarwanda gikoresheje guhuza umuntu-inshinga hashingiwe ku bimenyetso by'ibikorwa by'amazina
+
+EN: Tenses in English: simple present, past, future, and perfect forms (has/have/had + past participle)
+FR: Les temps en anglais: présent simple, passé, futur et formes parfaites (has/have/had + participe passé)
+RW: Ibihe mu Cyongereza: ubu, ejo hashize, ejo hazaza, n'imiterere y'ikamaro (has/have/had + participe passé)
+
+EN: French verb conjugation changes with person: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent
+FR: La conjugaison des verbes français change selon la personne: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent
+RW: Guhindura inshinga mu Gifaransa bihinduka n'umuntu: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent
+
+EN: Adjectives in English come before the noun: "a big house", "the red car"
+FR: Les adjectifs en anglais se placent avant le nom: "a big house", "the red car"
+RW: Inzira mu Cyongereza ziza mbere y'izina: "a big house", "the red car"
+
+EN: In French, most adjectives come after the noun: "une maison grande", but some come before: "un grand homme"
+FR: En français, la plupart des adjectifs viennent après le nom, mais certains viennent avant: "un grand homme"
+RW: Mu Gifaransa, inzira nyinshi ziza nyuma y'izina, ariko zimwe ziza mbere: "un grand homme"
+
+EN: A paragraph should have a topic sentence, supporting details, and a concluding sentence
+FR: Un paragraphe doit avoir une phrase principale, des détails de soutien et une phrase de conclusion
+RW: Paragarafu igomba kugira interuro y'ingenzi, ibisobanuro bishamikiyeho, n'interuro y'iherezo
+
+EN: Scientific writing uses passive voice: "The experiment was conducted..." rather than "We conducted..."
+FR: L'écriture scientifique utilise la voix passive: "L'expérience a été menée..." plutôt que "Nous avons mené..."
+RW: Inyandiko ya siyanse ikoresheja ijwi ry'inshingwa: "Igerageza ryakozwe..." aho "Twakoreye..."
+
+EN: Formal writing avoids contractions (don't → do not, can't → cannot, it's → it is)
+FR: L'écriture formelle évite les contractions (don't → do not, can't → cannot)
+RW: Inyandiko nkuru irinda guhuza amagambo (don't → do not, can't → cannot)
